@@ -1,3 +1,5 @@
 # myntra_project
 my first project<br>
-by- Vedant Singh
+by - me (vedant singh) <br>
+git is quite confusing
+
