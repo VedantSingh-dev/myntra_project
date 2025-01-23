@@ -1,0 +1,133 @@
+*{
+    margin: 0;padding: 0;
+}
+main{
+    background-color: #f5f5f6a2;
+}
+header{
+    height: 80px;
+    background-color: #ffffff;
+    display: flex; align-items: center;
+    justify-content:space-between;
+}
+img{
+    width: 53px;height: 53px;
+    margin: 0px 0px 0px 45px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    width:510px; position: absolute;  left: 125px;
+    font-family: Assistant;
+    
+}
+a{
+    text-decoration: none;
+    color:#282C3F;
+    font-size: 14px; font-weight: 700;
+    padding: 30px 0px;
+}
+a:hover{
+    border-bottom: 3px solid rgb(227, 18, 88);
+}
+sup{
+    color: #ff3f6c;
+}
+#search_box{
+    margin-right:90px;
+    display:flex;
+    height: 41px;
+    width: 360px;
+    position:absolute;
+    right:130px
+}
+#icon{
+    height: 41px;width: 49px;
+    background-color: #f5f5f6;
+    border-radius: 5px 0px 0px 5px;
+}
+input{
+    flex-grow: 1;
+    background-color: #f5f5f6;
+    border-radius: 0px 5px 5px 0px;
+}
+span{
+    padding-top:8px;
+    padding-left:10px
+}
+#end_ion{
+    display: flex;
+    flex-direction: row;flex-grow: 1;
+    justify-content:space-around;
+    align-content: space-around;
+}
+#block{
+    width: 200px;
+    margin-right: 20px;
+    display:flex;
+    justify-content:space-around;
+}
+.icon_text{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 17px 0px;
+}
+.icon_text:hover{
+    border-bottom: 3px solid rgb(227, 18, 88);
+}
+pre{
+    font-size: 12px;
+    font-weight: 700;
+    color: #282C3F;
+    font-family:Assistant;
+}
+#banner1{
+    height: 350px; width: 840px;
+    margin-left: 200px; margin-top: 25px;
+    background-image: url(banner.png);
+    background-size: contain; background-repeat: no-repeat;
+}
+#sec_banner{
+    height: 500px; width: 840px;
+    margin-left: 195px;
+    background-image: url(secondry-banner.png);
+    background-size: contain; background-repeat: no-repeat;
+
+}
+#h1{
+    text-align: center;
+    font-weight: 500;
+    margin: 0px;padding-top: 0px;
+    font-size: 28px;
+    font-family: Alegreya; z-index: 1;
+    position:relative;
+    bottom: 80px;
+    
+}
+aside{
+    position:absolute;
+    right:0px;
+    top:160px;
+    z-index: 1;
+    position: fixed;z-index: 2;
+}
+#side{
+    height:350px;width: 70px;
+}
+#dis{
+    width: 1038px;height: 681px;
+    margin-left: 100px;
+}
+#bu{
+    width: 1038px;height: 681px;
+    margin-left: 100px;
+}
+#foot{
+    width: 1000px;
+    height: 400px;
+    margin:100px;
+}
